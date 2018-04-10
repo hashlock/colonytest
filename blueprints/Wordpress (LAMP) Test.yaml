@@ -35,3 +35,7 @@ applications:
     input_values:
     - USER: $DB_USER
     - PASS: $DB_PASS
+- myappserver:
+    input_values:
+    - USER: $DB_USER
+    - PASS: $DB_PASS
