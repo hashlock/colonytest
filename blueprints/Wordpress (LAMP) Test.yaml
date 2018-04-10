@@ -32,10 +32,7 @@ applications:
     - DB_PASS: $DB_PASS
     - DB_NAME: $DB_NAME
 - myappserver:
-    input_values:
-    - USER: $DB_USER
-    - PASS: $DB_PASS
-- myappserver:
+    instances: 2
     input_values:
     - USER: $DB_USER
     - PASS: $DB_PASS
